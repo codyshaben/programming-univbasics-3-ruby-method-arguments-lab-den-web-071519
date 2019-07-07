@@ -8,9 +8,8 @@ def introduction_with_language(name,language)
   puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
-def introduction_with_language_optional(name,language,c=RubyVM)
+def introduction_with_language_optional(name,language,c=Ruby)
   puts "Hi, my name is #{name} and I am learning to program in #{language}." 
-  if language = nil 
-    puts "Hi, my name is #{name} and I am learning to program in Ruby."
+
   end
 end
